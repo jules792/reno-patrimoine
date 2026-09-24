@@ -1,7 +1,7 @@
 import {mkdir,writeFile,cp,readFile,rm} from 'node:fs/promises';
 import {services,categories} from '../content/services.mjs';
 import {articles} from '../content/articles.mjs';
-export const origin=(process.env.SITE_URL||'https://reno-patrimoine-normandie.jules483909.chatgpt.site').replace(/\/$/,'');
+export const origin=(process.env.SITE_URL||(process.env.VERCEL_PROJECT_PRODUCTION_URL?`https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`:'https://reno-patrimoine-normandie.jules483909.chatgpt.site')).replace(/\/$/,'');
 const date='2026-09-24';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const paths=[];

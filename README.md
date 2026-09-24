@@ -4,7 +4,7 @@ Site vitrine français de rénovation et patrimoine, basé à Beaufour-Druval, P
 
 ## Démarrer
 
-Node.js 18 ou supérieur. Aucune dépendance à installer.
+Node.js 22.x. Aucune dépendance à installer.
 
 ```sh
 npm run dev
@@ -40,6 +40,12 @@ npm start
 - `assets/` : visuels et polices ; les licences SIL des polices sont incluses.
 
 Après modification, lancer `npm run build` puis `npm test`. Le dossier `dist/` est versionné afin de permettre un hébergement statique immédiat.
+
+## Déploiement Vercel
+
+Le fichier `vercel.json` configure le projet comme site statique : génération avec `npm run build`, sortie `dist`, URLs avec slash final. La racine Vercel est la racine du dépôt (aucun sous-dossier à renseigner). Node.js est fixé à 22.x.
+
+Les métadonnées utilisent `SITE_URL` si elle est définie, sinon le domaine de production fourni par `VERCEL_PROJECT_PRODUCTION_URL`. Les variables système Vercel doivent être exposées au build. Pour un domaine personnalisé, définir explicitement `SITE_URL=https://votre-domaine.fr`.
 
 ## Domaine et publication
 
