@@ -1,0 +1,7 @@
+node_modules/
+.sites-runtime/
+.unlazy/
+.env*
+!.env.example
+.DS_Store
+GATES.md
