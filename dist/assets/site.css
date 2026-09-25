@@ -308,6 +308,10 @@
 .category-card{padding:0;overflow:hidden}.category-card picture{display:block;height:220px;overflow:hidden}.category-card picture img{width:100%;height:100%;transition:transform .6s}.category-card:hover picture img{transform:scale(1.04)}.category-card .tag{padding:25px 28px 0}.category-card h3{padding:0 28px;margin-top:18px}.category-card p,.category-card .read{padding:0 28px}.category-card .read{padding-bottom:25px}.category-cover{margin-bottom:45px}.category-cover .page-cover{height:340px}@media(max-width:600px){.category-cover .page-cover{height:230px}}
 
 /* Vector icons keep the same appearance on iOS and desktop. */
+.hero-ramonage{display:inline-flex;align-items:center;gap:16px;align-self:flex-start;color:#f4f1e9;border-bottom:1px solid #d1ac79;padding:0 0 8px;margin:0 0 24px;font-size:15px}.hero-ramonage:hover{color:#d1ac79}
+.ramonage-highlight .split-copy p{color:#d4d5cb}.ramonage-highlight .split-copy .note{color:#b8baad}
+.ramonage-highlight{background:#24261f;border-top:3px solid #cb382c}.ramonage-highlight .split-image img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}.ramonage-actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:28px}.ramonage-benefits{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.ramonage-benefits span{font-size:12px;color:#d1ac79;border:1px solid #555746;padding:9px 12px}.ramonage-highlight .note{margin-top:20px}
+@media(max-width:600px){.hero-ramonage{font-size:13px;max-width:100%}.ramonage-highlight .split-image img{aspect-ratio:4/3}.ramonage-actions{gap:22px}}
 .icon-arrow{display:inline-block;width:1.1em;height:1.1em;vertical-align:-.15em;flex-shrink:0}
 .icon-arrow-down{transform:rotate(135deg)}.icon-arrow-back{transform:rotate(-135deg)}
 .hero{height:auto;max-height:none;flex-direction:column;align-items:stretch;min-height:max(720px,calc(100svh - 135px))}

@@ -4,11 +4,12 @@ Entreprise de rénovation à Beaufour-Druval, dans le Pays d’Auge.
 
 - Adresse : 1308 route de Cresseveuille, 14340 Beaufour-Druval, France.
 - Téléphone : +33 6 47 84 09 89.
-- Services : rénovation intérieure et extérieure, maçonnerie, patrimoine ancien, toiture et charpente.
+- Services : rénovation intérieure et extérieure, ramonage, maçonnerie, patrimoine ancien, toiture et charpente.
 - Toute intervention dépend de l’étude du projet et de sa localisation.
 - Les images sont des illustrations générées, pas des preuves de réalisations.
 
 ## Pages de référence
+- [Ramonage](https://reno-patrimoine.vercel.app/savoir-faire/ramonage/)
 - [Savoir-faire](https://reno-patrimoine.vercel.app/savoir-faire/)
 - [Notre approche](https://reno-patrimoine.vercel.app/notre-approche/)
 - [Contact](https://reno-patrimoine.vercel.app/contact/)
